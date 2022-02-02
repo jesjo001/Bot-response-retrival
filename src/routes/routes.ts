@@ -1,7 +1,6 @@
 import express from 'express';
 import {Request, Response} from 'express';
 import UserRouter from './users/routes';
-import PostRouter from './post/routes';
 import UserStateRouter from './userState/routes';
 import HobbyRouter from './hobby/routes'
 
