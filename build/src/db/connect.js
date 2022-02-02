@@ -7,7 +7,7 @@ var mongoose_1 = __importDefault(require("mongoose"));
 var config_1 = __importDefault(require("config"));
 var logger_1 = __importDefault(require("../logger"));
 function connect() {
-    var dbUri = config_1.default.get("dbUri");
+    var dbUri = config_1.default.get("remoteDb");
     return mongoose_1.default.connect(dbUri, {
         useNewUrlParser: true,
         useUnifiedTopology: true,

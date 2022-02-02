@@ -4,7 +4,7 @@ import log from '../logger'
 
 
 function connect(){
-    const dbUri = config.get("dbUri") as string;
+    const dbUri = config.get("remoteDb") as string;
 
 
 
