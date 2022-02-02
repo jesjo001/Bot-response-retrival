@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use('/api/v1/', Route)
-app.get('/', (req, res) => res.status(200).send("Welcome to Insta Feeds"))
+app.get('/', (req, res) => res.status(200).send("Welcome to Bot Response Retrieval"))
 app.get('*', (req, res) => res.status(404).send("Page not found"))
 
 app.listen(PORT, HOST, ()=> {
