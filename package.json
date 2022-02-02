@@ -47,6 +47,6 @@
     "@types/mongoose": "^5.11.97",
     "@types/nanoid": "^2.1.0",
     "@types/node": "^15.0.1",
-    "@types/pino": "^6.3.8",
+    "@types/pino": "^6.3.8"
   }
 }
