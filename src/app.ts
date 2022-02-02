@@ -12,9 +12,9 @@ import Route from './routes/routes'
 // const PORT = process.env.PORT as number
 // const HOST = process.env.HOST as string
 
-const HOST = config.get("host") as string;
-const PORT = config.get("port") as number;
-
+// const HOST = config.get("host") as string;
+const HOST = process.env.HOST as string;
+const PORT = process.env.PORT as any;
 
 const app = express();
 app.use(deserializeUser);
